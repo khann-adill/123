@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-	 imagename=mak1806/123:latest
+	 imagename= 'mak1806/123:latest'
 	 dockerImage = ''
 	 registryCredential = 'kevalnagda'
 	}
