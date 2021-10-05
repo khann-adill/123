@@ -8,7 +8,7 @@ pipeline {
 	 }
    stage('Build') {
       steps {
-        sh 'echo hi..'
+        sh 'docker build -t mak1806/123:latest .'
       }
    }
  }
